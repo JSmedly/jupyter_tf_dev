@@ -1,13 +1,13 @@
 {
-	"name": "deep-cluster",
-	"dockerFile": "Dockerfile",
+	"name": "my project",
+	"dockerFile": "../Dockerfile",
 
 	"extensions": [
-		"ms-python.python"
-		// "ms-toolsai.jupyter-renderers"
+		"ms-python.python",
+		"ms-toolsai.jupyter"
 	],
 	"runArgs": [
-        "--name", "deep-cluster-tf-gpu-jupyter",
+        "--name", "my_project_jupyter_tf",
         "--gpus", "all",
         "--rm"
     ],
